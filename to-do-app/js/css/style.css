@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,11 +9,11 @@
   outline: none;
 }
 
-body{
-  background: rgb(20,20,20);
+body {
+  background: rgb(20, 20, 20);
 }
 
-input{
+input {
   border: none;
   background: transparent;
   width: 100%;
@@ -22,7 +22,7 @@ input{
   font-size: 20px;
 }
 
-.todo-input{
+.todo-input {
   width: 100vw;
   height: 80px;
   display: flex;
@@ -31,7 +31,7 @@ input{
   align-items: center;
 }
 
-.content{
+.content {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -39,11 +39,11 @@ input{
   flex-direction: column;
 }
 
-.todos{
+.todos {
   margin-bottom: 2em;
 }
 
-.todo-card{
+.todo-card {
   width: 50vw;
   height: 150px;
   background: rgb(30, 30, 30);
@@ -55,55 +55,57 @@ input{
   margin-bottom: 1em;
 }
 
-.todo-head{
+.todo-head {
   height: 50%;
 }
 
-.todo-body{
+.todo-body {
   display: flex;
   justify-content: space-between;
   width: 50%;
   height: 25%;
 }
 
-.done, .delete{
+.done,
+.delete {
   width: 50%;
 }
 
-.todos-done .delete{
+.todos-done .delete {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.todos-done .delete img{
+.todos-done .delete img {
   position: initial;
 }
 
-.delete{
+.delete {
   position: relative;
 }
 
-.delete img{
+.delete img {
   position: absolute;
   right: 0;
 }
 
-.todo-body div{
+.todo-body div {
   opacity: 0.5;
 }
 
-.todo-body div:hover{
+.todo-body div:hover {
   opacity: 1;
 }
-.todo-body img{
-  width: 30px; 
+
+.todo-body img {
+  width: 30px;
 }
 
-#done{
+#done {
   opacity: 0.5;
 }
 
-#done:hover{
+#done:hover {
   opacity: 1;
 }
