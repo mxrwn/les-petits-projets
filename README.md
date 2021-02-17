@@ -29,8 +29,8 @@
 * [ ] Text-to-speech
 
 * [ ] # React
-  * [ ] create-react-app
-  * [ ] show message from state on page
+  * [x] create-react-app
+  * [x] show message from state on page
   * [ ] Create Todo Form
   * [ ] Call function when the form is submitted
   * [ ] Create a string state value to store the user input
