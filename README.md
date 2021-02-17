@@ -5,7 +5,7 @@
 - [ ] Counter project
 - [ ] Background image slider
 - [ ] To-Do App
-  - [ ] Vanilla JS
+  - [x] Vanilla JS
   - [ ] React
 - [ ] Navigation menu
 - [ ] Battery charge animation
